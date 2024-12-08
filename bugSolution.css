@@ -1,0 +1,15 @@
+/* bugSolution.css */
+
+li:nth-child(n+2) {
+  /* Styles for list items after the first one */
+  background-color: #f0f0f0;
+}
+
+/* Add other styles as needed, without affecting the :nth-child selector */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  padding: 10px;
+}
