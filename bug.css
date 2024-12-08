@@ -1,0 +1,1 @@
+The CSS rule `:nth-child(n+2)` does not work as expected when combined with other selectors. For example, if you have a list with several list items, and you want to style all list items except the first one using `li:nth-child(n+2)`, it might not work if other selectors are applied.
